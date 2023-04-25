@@ -1,0 +1,22 @@
+//A) Crie um novo arquivo com uma fun main
+
+fun main() {
+    //b) Declare uma variável mutável capaz de armazenar seu nome completo
+    var nomeCompleto = "João Antonio Geringer da Silva"
+
+    //c) Declare uma variavel de texto sem valor algum
+    var textoSemValor: String
+
+    //d) Declare uma variável imutável com o menor tipo de dado possivel capaz de armazenar o numero que voce calça
+    val calçado: Byte = 40
+
+    //e) Declare uma variável capaz de armazenar a população do Brasil (1869000000000)
+    val PIB: Long = 1869000000000
+
+
+    //f) Imprima o valor do PIB per capita
+    val populaçao = 211000000
+    //g) Rode seu programa de maneira que nao tenha erros de compilação ou execução
+    println("${PIB / populaçao}")
+
+}
